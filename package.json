@@ -11,7 +11,11 @@
     "start": "node index.js",
     "server": "nodeman index.js",
     "client": "npm run start --prefix client",
+<<<<<<< HEAD
     "dev": "concurrently \"npm run server\" \"npm run client\""
+=======
+    "dev": "concurrently \" npm run server\" \" npm run client \""
+>>>>>>> 64fa23f576ce98d264fe4bf4b5abcdd05f823b25
   },
   "author": "",
   "license": "ISC",
