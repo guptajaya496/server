@@ -4,7 +4,6 @@ import React, {Component} from 'react';
 class Footer extends Component{
     render(){
         return(
-
             <footer className="page-footer" style={{'background-color':'#2e6da4'}}>
                 <div className="row">
                     <div className="col-xs-6 col-xs-push-3 col-sm-2 col-sm-offset-1">
