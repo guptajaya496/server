@@ -52,7 +52,7 @@ class App extends Component{
                                     <Route exact path='/' component={Home} />
                                     <Route path='/about-organization' component={AboutOrganization} />
                                     <Route path='/managing-directors-message' component={ManagingDirectorsMessage} />
-                                    <Route path='/mission-vision' component={ManagingDirectorsMessage} />
+                                    <Route path='/mission-vision' component={MissionVision} />
                                     <Route path='/association-scope-portfolio' component={AssociationScopePortfolio} />
                                     <Route path='/general-rules-regulations' component={GeneralRulesRegulations} />
                                     <Route path='/achievements-gallery' component={AchievementsGallery} />
