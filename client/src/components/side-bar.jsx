@@ -14,8 +14,8 @@ class Sidebar extends Component{
                   <div className="collapsible-header"><i className="fa fa-heartbeat fa-lg"></i> PPM Surgicals</div>
                   <div className="collapsible-body">
                     <ul>
-                        <li> <a href="/products-catalouge"><i className="fa fa-heartbeat fa-lg"></i> Product's Catalouge</a></li>
-                        <li><a href="/enquiry-form"><i className="fa fa-heartbeat fa-lg"></i> Enquiry Form</a></li>
+                        <li style={{paddingBottom:10+'px'}}> <a href="/products-catalouge"  style={{color:'#333'}} > <i className="fa fa-heartbeat fa-lg"></i> Product's Catalouge</a></li>
+                        <li style={{paddingBottom:10+'px'}}><a href="/enquiry-form" style={{color:'#333'}}><i className="fa fa-heartbeat fa-lg"></i> Enquiry Form</a></li>
                     </ul>
                   </div>
                 </li>
@@ -23,8 +23,8 @@ class Sidebar extends Component{
                   <div className="collapsible-header"><i className="fa fa-user fa-lg"></i> PPM Consultancy</div>
                   <div className="collapsible-body">
                     <ul>
-                        <li> <a href="/consultancy-portfolio"><i className="fa fa-heartbeat fa-lg"></i> Consultancy Portfolio</a></li>
-                        <li><a href="/get-in-touch-form"><i className="fa fa-heartbeat fa-lg"></i> Get-In-Touch Form</a></li>
+                        <li style={{paddingBottom:10+'px'}}> <a href="/consultancy-portfolio" style={{color:'#333'}} ><i className="fa fa-user fa-lg"></i> Consultancy Portfolio</a></li>
+                        <li style={{paddingBottom:10+'px'}}><a href="/get-in-touch-form" style={{color:'#333'}}><i className="fa fa-user fa-lg"></i> Get-In-Touch Form</a></li>
                     </ul>
                   </div>
                 </li>
@@ -32,10 +32,10 @@ class Sidebar extends Component{
                   <div className="collapsible-header"><i className="fa fa-cubes fa-lg"></i> PPM Constructions</div>
                   <div className="collapsible-body">
                     <ul>
-                        <li> <a href="/civil-construction"><i className="fa fa-heartbeat fa-lg"></i> Civil Construction</a></li>
-                        <li><a href="/architecture-structural-designs"><i className="fa fa-heartbeat fa-lg"></i> Architecture & Structural Designs</a></li>
-                        <li><a href="/interior-designing"><i className="fa fa-heartbeat fa-lg"></i> Interior Designing</a></li>
-                        <li><a href="/associate-form"><i className="fa fa-heartbeat fa-lg"></i> Associate Form</a></li>
+                        <li style={{paddingBottom:10+'px'}}> <a href="/civil-construction"  style={{color:'#333'}}><i className="fa fa-cubes fa-lg"></i> Civil Construction</a></li>
+                        <li style={{paddingBottom:10+'px'}}><a href="/architecture-structural-designs" style={{color:'#333'}}><i className="fa fa-cubes fa-lg"></i> Architecture & Structural Designs</a></li>
+                        <li style={{paddingBottom:10+'px'}}><a href="/interior-designing" style={{color:'#333'}}><i className="fa fa-cubes fa-lg"></i> Interior Designing</a></li>
+                        <li style={{paddingBottom:10+'px'}}><a href="/associate-form" style={{color:'#333'}}><i className="fa fa-cubes fa-lg"></i> Associate Form</a></li>
                     </ul>
                   </div>
                 </li>
@@ -43,8 +43,8 @@ class Sidebar extends Component{
                   <div className="collapsible-header"><i className="fa fa-users fa-lg"></i> PPM Event Management</div>
                   <div className="collapsible-body">
                     <ul>
-                        <li> <a href="/services-profile"><i className="fa fa-heartbeat fa-lg"></i> Services Profile</a></li>
-                        <li><a href="/call-form"><i className="fa fa-heartbeat fa-lg"></i> Call Form</a></li>
+                        <li style={{paddingBottom:10+'px'}}> <a href="/services-profile" style={{color:'#333'}}><i className="fa fa-users fa-lg"></i> Services Profile</a></li>
+                        <li style={{paddingBottom:10+'px'}}><a href="/call-form" style={{color:'#333'}}><i className="fa fa-users fa-lg"></i> Call Form</a></li>
                     </ul>
                   </div>
                 </li>

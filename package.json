@@ -13,7 +13,7 @@
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; npm install --only=dev --dev",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION = false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "author": "",
   "license": "ISC",
