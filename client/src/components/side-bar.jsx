@@ -4,7 +4,7 @@ import React,{Component} from 'react';
 class Sidebar extends Component{
     render(){
         return(
-          <div>
+          <div className="col-xs-14 col-sm-14">
 
               <ul className="collapsible">
                 <li>

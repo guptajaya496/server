@@ -4,8 +4,8 @@ import React, {Component} from 'react';
 class Footer extends Component{
     render(){
         return(
-            <footer className="page-footer" style={{'background-color':'#2e6da4'}}>
-                <div className="row">
+            <footer className="page-footer col-xs-14 col-sm-14" style={{'backgroundColor':'#2e6da4'}}>
+                <div className="row" style={{margin:0}}>
                     <div className="col-xs-6 col-xs-push-3 col-sm-2 col-sm-offset-1">
                         <h5>Links</h5>
                         <ul className="list-unstyled">

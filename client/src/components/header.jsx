@@ -5,10 +5,10 @@ import PPM from '../dist/images/PPM.jpg';
 class Header extends Component{
     render(){
         return(
-          <nav className="nav-extended">
+          <nav className="nav-extended col-xs-14 col-sm-14">
             <div className="nav-wrapper " style={{'backgroundColor':'#2e6da4', align:'center'}}>
                 <a href="/" className="brand-logo">
-                  <img src= {PPM} alt="logo" className="logo" style={{height:60+'px', width:100+'px', align:'center','padding-bottom':5+'px','padding-left':5+'px'}}/>
+                  <img src= {PPM} alt="logo" className="logo" style={{height:60+'px', width:100+'px', align:'center','paddingBottom':5+'px','paddingLeft':5+'px'}}/>
                 </a>
             </div>
             <div className="nav-wrapper" style={{'backgroundColor':'#2e6da4'}}>
