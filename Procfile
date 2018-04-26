@@ -1,1 +1,1 @@
-web  npm start --port $PORT
+web  npm run dev --port $PORT
