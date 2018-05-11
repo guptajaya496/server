@@ -36,17 +36,16 @@ class App extends Component{
     render(){
         return(
             <div className="row">
-                {/*<Provider store={store}>*/}
                     <div className="row">
                         <Header/>
                     </div>
                     <div className=" main-container">
                         <section>
-                            <div className="col-sm-2 main-content">
+                            <div className="col-xs-14 col-sm-14 col-lg-2 ">
                                 <Sidebar/>
                             </div>
                         </section>
-                        <div className="col-sm-10">
+                        <div className="col-xs-14 col-sm-14 col-lg-10">
                             <Router history={history}>
                                 <Switch>
                                     <Route exact path='/' component={Home} />
@@ -79,7 +78,7 @@ class App extends Component{
                     <div className="row">
                         <Footer/>
                     </div>
-                {/*</Provider>*/}
+               
             </div>
         );
     }
