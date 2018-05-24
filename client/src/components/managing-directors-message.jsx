@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class ManagingDirectorsMessage extends Component{
     render(){
         return(
-            <div >
+            <div>
                 <h5>Managing Director's Message</h5>
                  <p style={{fontFamily: 'verdana,Arial', fontStyle: 'normal', fontSize:13+'px'}}>
                   At PPM we value every individual in our care and it is our aim to provide the best possible services to

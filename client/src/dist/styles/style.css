@@ -1,1 +1,151 @@
+.paragraphFont{
+  font-family: 'verdana,Arial';
+  font-style: italic;
+  font-size: 14em;
+}
 
+
+.logoStyle{
+  height: 60px;
+  width: 115px;
+  align: center;
+}
+
+.iconHeight{
+  height: auto;
+}
+
+.logoName{
+  margin-top: .912rem;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.nav-wrapper .navMenuFont{
+  font-size: 12px;
+}
+
+.sendButtonColor{
+  background-color: #2e6da4;
+}
+
+
+
+nav{
+  padding-top: 1em;
+  background-color: #2e6da4;
+}
+
+.nav-wrapper {
+  background-color: #2e6da4;
+  width: auto;
+}
+
+.nav-wrapper a {
+  float: none;
+  background-color: #2e6da4;
+  color: #f2f2f2;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.nav-wrapper a:hover {
+  background-color: inherit;
+  color: deepskyblue;
+}
+
+.btn:hover{
+  background-color: #2e6da4;
+}
+
+.nav-wrapper .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-wrapper a {display: none;}
+  .nav-wrapper a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-wrapper.responsive {
+    position: relative;
+    width: auto;
+  }
+  .nav-wrapper.responsive a.icon {
+    display: none;
+  }
+  .nav-wrapper.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    width: auto;
+  }
+}
+
+.input-field label {
+  color: #000;
+}
+
+.validate{
+  color: #2e6da4;
+}
+
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #2e6da4;
+  box-shadow: 0 1px 0 0 #2e6da4;
+}
+
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #2e6da4;
+  box-shadow: 0 1px 0 0 #2e6da4;
+}
+
+.input-field .prefix.active {
+  color: #2e6da4;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #2e6da4 !important;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #2e6da4 !important;
+  box-shadow: 0 1px 0 0 #2e6da4 !important;
+}
+
+.input-field input[type=email]:focus + label {
+  color: #2e6da4 !important;
+}
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #2e6da4 !important;
+  box-shadow: 0 1px 0 0 #2e6da4 !important;
+}
+
+.input-field input[type=tel]:focus + label {
+  color: #2e6da4 !important;
+}
+
+.input-field input[type=tel]:focus {
+  border-bottom: 1px solid #2e6da4 !important;
+  box-shadow: 0 1px 0 0 #2e6da4 !important;
+}
+
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+  color: #2e6da4 !important;
+}
+
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #2e6da4 !important;
+  box-shadow: 0 1px 0 0 #2e6da4 !important;
+}
